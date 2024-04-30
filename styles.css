@@ -55,12 +55,9 @@ body{
     font-weight: bold;
 }
 
-p a{
-    text-decoration: underline;
-}
-
 .grid .item p a{
     text-decoration: underline;
+    font-weight: bold;
 }
 
 .grid .item p{
