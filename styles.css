@@ -11,7 +11,7 @@
     background-color: white;
     border-radius: 50%;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-    display: none; /* Początkowo ukrywamy przycisk */
+    display: none;
     justify-content: center;
     align-items: center;
     text-decoration: none;
@@ -21,7 +21,6 @@
     background-color: #f0f0f0;
 }
 
-/* Dodatkowe stylowanie dla strzałki */
 .back-to-top span {
     display: flex;
     justify-content: center;
@@ -53,17 +52,14 @@ body{
 .o-nas{
     font-size: 50px;
     margin-bottom: 20px;
-    color: #E87619;
     font-weight: bold;
 }
 
 p a{
-    color: #E87619;
     text-decoration: underline;
 }
 
 .grid .item p a{
-    color: #E87619;
     text-decoration: underline;
 }
 
@@ -74,7 +70,6 @@ p a{
 
 .m-title{
     font-size: 30px;
-    color: #E87619;
 }
 
 main{
@@ -163,6 +158,10 @@ nav {
     font-size: 70px;
     justify-content: space-around;
     width: 100%;
+}
+
+.sociale i{
+    transition: color 0.2s;
 }
 
 .sociale i:hover{

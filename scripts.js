@@ -15,6 +15,7 @@
     });
 
     function scrollToSection(sectionNumber) {
+        event.preventDefault();
         var sectionId = "section" + sectionNumber;
         var section = document.getElementById(sectionId);
         var sectionTop = section.offsetTop;
