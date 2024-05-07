@@ -21,7 +21,7 @@
 
   <!-- Title -->
   <title>Koło naukowe Czarna Magia</title>
-  <link rel="icon" href="resources/czarodziej1.png">
+  <link rel="icon" href="resources/czarodziej1.webp">
 </head>
 <body>
     <a href="#" class="back-to-top" id="backToTopButton">
@@ -33,10 +33,17 @@
     <nav class="bg-gray-800 p-4">
         <div class="container mx-auto flex justify-between items-center">
             <div class="flex items-center">
-                <img src="resources/czarodziej1.png" alt="Logo" class="h-8 mr-2">
+                <img src="resources/czarodziej1.webp" alt="Logo" class="h-8 mr-2">
                 <span class="text-white text-lg font-semibold">Czarna Magia</span>
             </div>
-            <div class="hidden md:flex">
+            <div class="md:hidden">
+                <button id="mobile-menu-button" class="text-gray-300 hover:text-white focus:outline-none">
+                    <svg viewBox="0 0 20 20" fill="currentColor" class="menu w-6 h-6">
+                        <path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm0 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm0 5a1 1 0 110-2h12a1 1 0 110 2H4z" clip-rule="evenodd"></path>
+                    </svg>
+                </button>
+            </div>
+            <div class="hidden md:flex md:items-center md:justify-end">
                 <a href="#" class="text-gray-300 hover:text-white px-4" onclick="scrollToSection(1)">O nas</a>
                 <a href="#" class="text-gray-300 hover:text-white px-4" onclick="scrollToSection(2)">Projekty</a>
                 <a href="#" class="text-gray-300 hover:text-white px-4" onclick="scrollToSection(3)">Kontakt</a>
@@ -50,7 +57,7 @@
   <div class="conteiner section" id="section1">
     <div class="main-1">
         <div class="o-nas">O NAS</div>
-        <div style="width: 80%; font-size: 25px; text-align: justify;">
+        <div class="opis">
             Czarna Magia została utworzona w 2023 roku przez Jana Karasia, obecnie liczy 20+ członków. Celem koła jest poszerzanie wiedzy studentów na temat Sztucznej Inteligencji (AI). W ramach Czarnej Magii tworzymy projekty głownie w obszarach Wizji Komputerowej i NLP. Jeździmy na branżowe wydarzenia takie jak hackathony, meetupy i konferencje. Gościmy prelegentów ze świata akademickiego i biznesu, między innymi z takich firm jak Nvidia, Żabka, Opegieka i wielu innych.
         Spotykamy się w każdą środę o 18:15. Najłatwiej dołączyć do koła poprzez serwer discord lub kontaktując się z nami poprzez nasze media społecznościowe.
         
@@ -89,7 +96,7 @@
         </div>
 
         <div class="main-2-r">
-            <img src="resources/IMG_2918.jpg" alt="prelekcja" style="width: 450px; border-radius: 20px;">
+            <img src="resources/IMG_2918.webp" alt="prelekcja">
         </div>
       </div>
 </div>
@@ -97,35 +104,41 @@
 <div class="projekty section" id="section2">
     <div class="projekty-1">
         <div class="o-nas">PROJEKTY</div>
-        <div class="grid">
+        <div class="flexbox">
             <div class="item">
-                <p>Face Expression Classificator - czyli model wykrywający emocje.</p>
-                <p>REPO: <a href="https://github.com/knsiczarnamagia/face-expression-recognizer" target="_blank">https://github.com/knsiczarnamagia/face-expression-recognizer</a></p>
-                <img src="resources/face-expression-recognition.png" alt="">
+                <p>Point Cloud Classificator</p>
+                <p style="font-weight: normal;">Klasyfikator chmury punktów wyszkolony na mapie UWM.</p>
+                <a href="https://visimind.com/pl/" target="_blank"><div class="item-img"><img src="resources/point-cloud-classificator.webp" alt=""></div></a>
+                <p style="font-weight: normal;">Realizowany we współpracy z <a href="https://visimind.com/pl/" target="_blank" style="font-weight: bold; text-decoration: underline;">Visimind</a></p>
             </div>
             <div class="item">
-                <p>Hate Detection - moduł wykrywania treści obraźliwych.</p>
-                <p>REPO: <a href="https://github.com/knsiczarnamagia/hate-detection" target="_blank">https://github.com/knsiczarnamagia/hate-detection</a></p>
-                <img src="" alt="">
+                <p>Face Expression Classificator</p>
+                <p style="font-weight: normal;">Model wykrywający emocje</p>
+                <a href="https://github.com/knsiczarnamagia/face-expression-recognizer" target="_blank"><div class="item-img"><img src="resources/face-expression-recognition.webp" alt=""></div></a>
+                <a href="https://github.com/knsiczarnamagia/face-expression-recognizer" target="_blank" style="text-decoration: underline;">REPO</a>
             </div>
             <div class="item">
-                <p>Point Cloud Classificator - klasyfikator chmury punktów, który został wyszkolony na mapie UWM. Realizowany we współpracy z <a href="https://visimind.com/pl/" target="_blank">Visimind</a></p>
-                <img src="resources/point-cloud-classificator.png" alt="">
+                <p>Hate Detection</p>
+                <p style="font-weight: normal;">Moduł wykrywania treści obraźliwych</p>
+                <a href="https://github.com/knsiczarnamagia/hate-detection" target="_blank"><div class="item-img"><img src="resources/hate-detection.webp" alt=""></div></a>
+                <a href="https://github.com/knsiczarnamagia/hate-detection" target="_blank" style="text-decoration: underline;">REPO</a>
             </div>
         </div>
-    </div>
+      </div>
 </div>
+
+
 
 <div class="kontakt section" id="section3">
     <div class="kontakt-1">
         <div class="o-nas">Kontakt</div>
-        <p style="font-size: 20px;">
+        <p>
             Dołącz do Czarnej Magii i rozpocznij swoją przygodę z AI!
         </p>
         <div class="sociale">
             <a href="https://discord.gg/aVTeDfreSD" target="_blank"><i class="fa-brands fa-discord"></i></a>
             <a href="https://www.facebook.com/profile.php?id=100093587573194" target="_blank"><i class="fa-brands fa-facebook"></i></a>
-            <a href="https://www.linkedin.com/company/101266519/admin/feed/posts/" target="_blank"> <i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.linkedin.com/company/101266519/admin/feed/posts/" target="_blank"> <i class="fa-brands fa-linkedin" style="margin-right: 0;"></i></a>
         </div>
     </div>
 </div>
