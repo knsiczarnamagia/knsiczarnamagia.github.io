@@ -35,14 +35,6 @@
     height: 100%;
 }
 
-#top {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-}
-
 body{
     background-color: #1F2937;
     color: white;
@@ -78,9 +70,9 @@ main{
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    height: 100vh;
+    height: 85vh;
     background-image: url("resources/IMG_3013.webp");
-    background-position: center;
+    background-position: top center;
     background-size: cover;
     background-attachment: fixed; 
 }
