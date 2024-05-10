@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Google Fonts Pre Connect -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- Meta Tags -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Fonts Links (Roboto 400, 500 and 700 included) -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS Files Links -->
+    <link rel="stylesheet" href="./styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Title -->
+    <title>Koło naukowe Czarna Magia</title>
+    <link rel="icon" href="resources/czarodziej1.webp" />
+  </head>
+  <body>
+    <a href="#" class="back-to-top" id="backToTopButton">
+      <span>
+        <i class="fas fa-arrow-up text-black"></i>
+      </span>
+    </a>
+
+    <nav class="bg-gray-800 p-4">
+      <div class="container mx-auto flex justify-between items-center">
+        <div class="flex items-center">
+          <img src="resources/czarodziej1.webp" alt="Logo" class="h-8 mr-2" />
+          <span class="text-white text-lg font-semibold">Czarna Magia</span>
+        </div>
+        <div class="md:hidden">
+          <button
+            id="mobile-menu-button"
+            class="text-gray-300 hover:text-white focus:outline-none"
+          >
+            <svg viewBox="0 0 20 20" fill="currentColor" class="menu w-6 h-6">
+              <path
+                fill-rule="evenodd"
+                d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm0 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm0 5a1 1 0 110-2h12a1 1 0 110 2H4z"
+                clip-rule="evenodd"
+              ></path>
+            </svg>
+          </button>
+        </div>
+        <div class="hidden md:flex md:items-center md:justify-end">
+          <a
+            href="#"
+            class="text-gray-300 hover:text-white px-4"
+            onclick="scrollToSection(1)"
+            >O nas</a
+          >
+          <a
+            href="#"
+            class="text-gray-300 hover:text-white px-4"
+            onclick="scrollToSection(2)"
+            >Projekty</a
+          >
+          <a
+            href="#"
+            class="text-gray-300 hover:text-white px-4"
+            onclick="scrollToSection(3)"
+            >Kontakt</a
+          >
+        </div>
+      </div>
+    </nav>
+
+    <main></main>
+
+    <div class="conteiner section" id="section1">
+      <div class="main-1">
+        <div class="o-nas">O NAS</div>
+        <div class="opis">
+          Czarna Magia została utworzona w 2023 roku przez Jana Karasia.
+          <a
+            href="http://wmii.uwm.edu.pl/kadra/zbrzezny-agnieszka"
+            target="_blank"
+            >Naszym opiekunem jest dr. Agnieszka Zbrzezny.</a
+          >
+          Celem koła jest poszerzanie wiedzy studentów na temat Sztucznej
+          Inteligencji (AI). W ramach Czarnej Magii tworzymy projekty głownie w
+          obszarach Wizji Komputerowej i NLP. Jeździmy na branżowe wydarzenia
+          takie jak hackathony, meetupy i konferencje. Gościmy prelegentów ze
+          świata akademickiego i biznesu, między innymi z takich firm jak
+          Nvidia, Żabka, Opegieka i wiele innych. Spotykamy się w każdą środę o
+          18:15 na Wydziale Matematyki i Informatyki. Aby zapisać się do koła
+          dołącz do serwera
+          <a href="https://discord.gg/aVTeDfreSD">discord</a> lub skontaktuj się
+          z nami poprzez nasze
+          <a href="https://www.facebook.com/profile.php?id=100093587573194"
+            >media</a
+          >. społecznościowe.
+        </div>
+      </div>
+
+      <div class="main-2">
+        <div class="main-2-l">
+          <div class="m-title" style="margin-bottom: 20px">Prelekcje:</div>
+          <div class="info">
+            <ul class="flex-container">
+              <li class="flex-item">
+                <span class="bullet">&#8226;</span> Prelekcje trwają zazwyczaj
+                około 60 minut.
+              </li>
+              <li class="flex-item">
+                <span class="bullet">&#8226;</span> Tematy związane ze AI od
+                wprowadzenia sieci neuronowych do produktów wdrażanych przez
+                firmy.
+              </li>
+              <!-- <li class="flex-item">
+                <span class="bullet">&#8226;</span> W trakcie prelekcji mamy
+                dostęp do auli na 128 osób.
+              </li> -->
+              <li class="flex-item">
+                <span class="bullet">&#8226;</span> Po środowych prelekcjach
+                wspólnie spędzamy czas na starym mieście. To własnie wtedy
+                powstaje wiele pomysłów na projekty!
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="main-2-r">
+          <img src="resources/IMG_2918.webp" alt="prelekcja" />
+        </div>
+      </div>
+    </div>
+
+    <div class="projekty section" id="section2">
+      <div class="projekty-1">
+        <div class="o-nas">PROJEKTY</div>
+        <div class="flexbox">
+          <div class="item">
+            <p>Point Cloud Classificator</p>
+            <p style="font-weight: normal">
+              Klasyfikator chmury punktów wyszkolony na mapie UWM.
+            </p>
+            <a href="https://github.com/knsiczarnamagia" target="_blank"
+              ><div class="item-img">
+                <img
+                  src="resources/point-cloud-classificator.webp"
+                  alt=""
+                /></div
+            ></a>
+            <p style="font-weight: normal">
+              Realizowany we współpracy z
+              <a
+                href="https://visimind.com/pl/"
+                target="_blank"
+                style="font-weight: bold; text-decoration: underline"
+                >Visimind</a
+              >
+            </p>
+          </div>
+          <div class="item">
+            <p>Face Expression Classificator</p>
+            <p style="font-weight: normal">Model wykrywający emocje</p>
+            <a
+              href="https://github.com/knsiczarnamagia/face-expression-recognizer"
+              target="_blank"
+              ><div class="item-img">
+                <img
+                  src="resources/face-expression-recognition.webp"
+                  alt=""
+                /></div
+            ></a>
+            <a
+              href="https://github.com/knsiczarnamagia/face-expression-recognizer"
+              target="_blank"
+              style="text-decoration: underline"
+              >REPO</a
+            >
+          </div>
+          <div class="item">
+            <p>Hate Detection</p>
+            <p style="font-weight: normal">
+              Moduł wykrywania treści obraźliwych
+            </p>
+            <a
+              href="https://github.com/knsiczarnamagia/hate-detection"
+              target="_blank"
+              ><div class="item-img">
+                <img src="resources/hate-detection.webp" alt="" /></div
+            ></a>
+            <a
+              href="https://github.com/knsiczarnamagia/hate-detection"
+              target="_blank"
+              style="text-decoration: underline"
+              >REPO</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="kontakt section" id="section3">
+      <div class="kontakt-1">
+        <div class="o-nas">Kontakt</div>
+        <p>Dołącz do Czarnej Magii i rozpocznij swoją przygodę z AI!</p>
+        <div class="sociale">
+          <a href="https://discord.gg/aVTeDfreSD" target="_blank"
+            ><i class="fa-brands fa-discord"></i
+          ></a>
+          <a
+            href="https://www.facebook.com/profile.php?id=100093587573194"
+            target="_blank"
+            ><i class="fa-brands fa-facebook"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/company/101266519/admin/feed/posts/"
+            target="_blank"
+          >
+            <i class="fa-brands fa-linkedin" style="margin-right: 0"></i
+          ></a>
+        </div>
+      </div>
+    </div>
+
+    <footer class="bg-gray-800 text-white py-4 text-center">
+      <a
+        href="https://uwm.edu.pl"
+        class="text-white hover:underline mx-2"
+        target="_blank"
+        >uwm.edu.pl</a
+      >
+      <a
+        href="https://www.facebook.com/uwmwmii"
+        class="text-white hover:underline mx-2"
+        target="_blank"
+        >facebook.com/uwmwmii</a
+      >
+      <a
+        href="http://wmii.uwm.edu.pl/studenci/kola-naukowe/kolo-naukowe-sztucznej-inteligencji-czarna-magia"
+        class="text-white hover:underline mx-2"
+        target="_blank"
+        >wmii.uwm.edu.pl/kolo-naukowe-sztucznej-inteligencji-czarna-magia</a
+      >
+    </footer>
+
+    <noscript>Your browser don't support JavaScript!</noscript>
+    <script src="./scripts.js"></script>
+  </body>
+</html>
