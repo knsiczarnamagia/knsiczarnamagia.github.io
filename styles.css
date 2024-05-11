@@ -27,7 +27,7 @@
     font-size: 30px;
     position: absolute;
     left: 200px; /* Odległość etykiety od osi */
-    top: 50%;
+    top: 44%;
     transform: translateY(-50%);
     color: white;
   }
@@ -39,7 +39,7 @@
     font-size: 30px;
     position: absolute;
     left: -400px; /* Odległość etykiety od osi */
-    top: 75%;
+    top: 70%;
     transform: translateY(-50%);
     color: white;
   }
@@ -54,6 +54,14 @@
   .day-1{
     left: 200px; /* Odległość etykiety od osi */
     top: 2%;
+    transform: translateY(-50%);
+    font-weight: bold;
+    font-size: 25px;
+  }
+
+  .day-2{
+    left: 200px; /* Odległość etykiety od osi */
+    top: 63%;
     transform: translateY(-50%);
     font-weight: bold;
     font-size: 25px;
@@ -108,37 +116,50 @@
   }
 
   .event-9{
-    text-align: left;
     left: -400px; /* Odległość etykiety od osi */
-    top: 35%;
+    top: 36%;
     transform: translateY(-50%);
   }
 
   .event-10{
-    text-align: left;
     left: -400px; /* Odległość etykiety od osi */
-    top: 41%;
+    top: 42%;
     transform: translateY(-50%);
   }
 
   .event-11{
-    text-align: left;
     left: -400px; /* Odległość etykiety od osi */
-    top: 45%;
+    top: 46%;
     transform: translateY(-50%);
   }
 
   .event-12{
-    text-align: left;
     left: -400px; /* Odległość etykiety od osi */
-    top: 49%;
+    top: 50%;
     transform: translateY(-50%);
   }
 
   .event-13{
-    text-align: left;
     left: -400px; /* Odległość etykiety od osi */
-    top: 52%;
+    top: 53%;
+    transform: translateY(-50%);
+  }
+
+  .event-14{
+    left: 200px; /* Odległość etykiety od osi */
+    top: 65%;
+    transform: translateY(-50%);
+  }
+
+  .event-15{
+    left: 200px; /* Odległość etykiety od osi */
+    top: 70%;
+    transform: translateY(-50%);
+  }
+
+  .event-16{
+    left: 200px; /* Odległość etykiety od osi */
+    top: 75%;
     transform: translateY(-50%);
   }
 
@@ -170,13 +191,13 @@
   }
   
   .dot:nth-child(2) {
-    top: 30%; /* Pozycja drugiej kropki */
+    top: 33%; /* Pozycja drugiej kropki */
     left: 50%; /* Położenie na osi */
     transform: translate(-50%, -50%);
   }
   
   .dot:nth-child(3) {
-    top: 70%; /* Pozycja trzeciej kropki */
+    top: 66%; /* Pozycja trzeciej kropki */
     left: 50%; /* Położenie na osi */
     transform: translate(-50%, -50%);
   }
