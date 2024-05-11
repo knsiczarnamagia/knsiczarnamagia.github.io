@@ -496,6 +496,13 @@ nav {
 }
 
 @media screen and (max-width: 600px) {
+
+    main {
+        height: 400px;
+        background-position: 58% 15%;
+        background-size: 160%;
+      }
+
   .main-2 {
     display: flex;
     flex-direction: column;
@@ -620,6 +627,13 @@ nav {
 }
 
 @media screen and (max-width: 450px) {
+
+    main {
+        height: 350px;
+        background-position: 58% 13%;
+        background-size: 160%;
+      }
+    
   .flexbox {
     width: 90%;
   }
@@ -633,7 +647,13 @@ nav {
   }
 }
 
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 330px) {
+    main {
+        height: 300px;
+        background-position: 58% 11%;
+        background-size: 160%;
+      }
+
   .flexbox {
     width: 95%;
   }
