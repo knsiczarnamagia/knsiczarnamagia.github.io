@@ -8,6 +8,13 @@
     height: 2000px; /* Możesz dostosować wysokość */
   }
 
+  .agenda-desc{
+    font-size: 20px;
+    text-align: justify;
+    width: 80%;
+    margin-bottom: 100px;
+  }
+
   .event-title {
     width: 400px;
     text-align: center;
@@ -78,51 +85,57 @@
     font-size: 25px;
   }
 
+  .event-0{
+    left: 200px; /* Odległość etykiety od osi */
+    top: 4%;
+    transform: translateY(-50%);
+  }
+
   .event-1{
     left: 200px; /* Odległość etykiety od osi */
-    top: 6%;
+    top: 7%;
     transform: translateY(-50%);
   }
 
   .event-2{
     left: 200px; /* Odległość etykiety od osi */
-    top: 9%;
+    top: 10%;
     transform: translateY(-50%);
   }
 
   .event-3{
     left: 200px; /* Odległość etykiety od osi */
-    top: 12%;
+    top: 13%;
     transform: translateY(-50%);
   }
 
   .event-4{
     left: 200px; /* Odległość etykiety od osi */
-    top: 15%;
+    top: 16%;
     transform: translateY(-50%);
   }
 
   .event-5{
     left: 200px; /* Odległość etykiety od osi */
-    top: 18%;
+    top: 19%;
     transform: translateY(-50%);
   }
 
   .event-6{
     left: 200px; /* Odległość etykiety od osi */
-    top: 21%;
+    top: 22%;
     transform: translateY(-50%);
   }
 
   .event-7{
     left: 200px; /* Odległość etykiety od osi */
-    top: 24%;
+    top: 25%;
     transform: translateY(-50%);
   }
 
   .event-8{
     left: 200px; /* Odległość etykiety od osi */
-    top: 27%;
+    top: 28%;
     transform: translateY(-50%);
   }
 
