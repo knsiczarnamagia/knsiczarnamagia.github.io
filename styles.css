@@ -15,7 +15,7 @@
     font-size: 30px;
     position: absolute;
     left: -400px; /* Odległość etykiety od osi */
-    top: 15%;
+    top: 16%;
     transform: translateY(-50%);
     color: white;
   }
@@ -52,16 +52,27 @@
   }
 
   .day-1{
+    text-align: center;
+    left: -400px; /* Odległość etykiety od osi */
+    top: 12%;
+    transform: translateY(-50%);
+    font-weight: bold;
+    font-size: 25px;
+  }
+
+  .day-1-1{
+    text-align: center;
     left: 200px; /* Odległość etykiety od osi */
-    top: 3%;
+    top: 45%;
     transform: translateY(-50%);
     font-weight: bold;
     font-size: 25px;
   }
 
   .day-2{
-    left: 200px; /* Odległość etykiety od osi */
-    top: 76%;
+    text-align: center;
+    left: -400px; /* Odległość etykiety od osi */
+    top: 78%;
     transform: translateY(-50%);
     font-weight: bold;
     font-size: 25px;
@@ -69,49 +80,49 @@
 
   .event-1{
     left: 200px; /* Odległość etykiety od osi */
-    top: 7%;
+    top: 6%;
     transform: translateY(-50%);
   }
 
   .event-2{
     left: 200px; /* Odległość etykiety od osi */
-    top: 10%;
+    top: 9%;
     transform: translateY(-50%);
   }
 
   .event-3{
     left: 200px; /* Odległość etykiety od osi */
-    top: 13%;
+    top: 12%;
     transform: translateY(-50%);
   }
 
   .event-4{
     left: 200px; /* Odległość etykiety od osi */
-    top: 16%;
+    top: 15%;
     transform: translateY(-50%);
   }
 
   .event-5{
     left: 200px; /* Odległość etykiety od osi */
-    top: 19%;
+    top: 18%;
     transform: translateY(-50%);
   }
 
   .event-6{
     left: 200px; /* Odległość etykiety od osi */
-    top: 22%;
+    top: 21%;
     transform: translateY(-50%);
   }
 
   .event-7{
     left: 200px; /* Odległość etykiety od osi */
-    top: 25%;
+    top: 24%;
     transform: translateY(-50%);
   }
 
   .event-8{
     left: 200px; /* Odległość etykiety od osi */
-    top: 28%;
+    top: 27%;
     transform: translateY(-50%);
   }
 
@@ -147,19 +158,19 @@
 
   .event-14{
     left: 200px; /* Odległość etykiety od osi */
-    top: 80%;
+    top: 79%;
     transform: translateY(-50%);
   }
 
   .event-15{
     left: 200px; /* Odległość etykiety od osi */
-    top: 83%;
+    top: 82%;
     transform: translateY(-50%);
   }
 
   .event-16{
     left: 200px; /* Odległość etykiety od osi */
-    top: 86%;
+    top: 85%;
     transform: translateY(-50%);
   }
 
@@ -177,8 +188,8 @@
   }
   
   .dot {
-    width: 10px; /* Średnica kropki */
-    height: 10px; /* Średnica kropki */
+    width: 20px; /* Średnica kropki */
+    height: 20px; /* Średnica kropki */
     background-color: white;
     border-radius: 50%;
     position: absolute;
@@ -210,6 +221,7 @@
 
   .agenda{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: auto;
