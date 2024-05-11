@@ -19,6 +19,10 @@
         var sectionId = "section" + sectionNumber;
         var section = document.getElementById(sectionId);
         var sectionTop = section.offsetTop;
+        if(sectionNumber === 4){
+            sectionTop = section.offsetTop - 100;
+        }
+        
         window.scrollTo({
             top: sectionTop,
             behavior: 'smooth'
