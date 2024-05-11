@@ -27,7 +27,7 @@
     font-size: 30px;
     position: absolute;
     left: 200px; /* Odległość etykiety od osi */
-    top: 44%;
+    top: 48%;
     transform: translateY(-50%);
     color: white;
   }
@@ -39,7 +39,7 @@
     font-size: 30px;
     position: absolute;
     left: -400px; /* Odległość etykiety od osi */
-    top: 70%;
+    top: 81%;
     transform: translateY(-50%);
     color: white;
   }
@@ -53,7 +53,7 @@
 
   .day-1{
     left: 200px; /* Odległość etykiety od osi */
-    top: 2%;
+    top: 3%;
     transform: translateY(-50%);
     font-weight: bold;
     font-size: 25px;
@@ -61,7 +61,7 @@
 
   .day-2{
     left: 200px; /* Odległość etykiety od osi */
-    top: 63%;
+    top: 76%;
     transform: translateY(-50%);
     font-weight: bold;
     font-size: 25px;
@@ -69,97 +69,97 @@
 
   .event-1{
     left: 200px; /* Odległość etykiety od osi */
-    top: 6%;
+    top: 7%;
     transform: translateY(-50%);
   }
 
   .event-2{
     left: 200px; /* Odległość etykiety od osi */
-    top: 9%;
+    top: 10%;
     transform: translateY(-50%);
   }
 
   .event-3{
     left: 200px; /* Odległość etykiety od osi */
-    top: 12%;
+    top: 13%;
     transform: translateY(-50%);
   }
 
   .event-4{
     left: 200px; /* Odległość etykiety od osi */
-    top: 15%;
+    top: 16%;
     transform: translateY(-50%);
   }
 
   .event-5{
     left: 200px; /* Odległość etykiety od osi */
-    top: 18%;
+    top: 19%;
     transform: translateY(-50%);
   }
 
   .event-6{
     left: 200px; /* Odległość etykiety od osi */
-    top: 21%;
+    top: 22%;
     transform: translateY(-50%);
   }
 
   .event-7{
     left: 200px; /* Odległość etykiety od osi */
-    top: 24%;
+    top: 25%;
     transform: translateY(-50%);
   }
 
   .event-8{
     left: 200px; /* Odległość etykiety od osi */
-    top: 27%;
+    top: 28%;
     transform: translateY(-50%);
   }
 
   .event-9{
     left: -400px; /* Odległość etykiety od osi */
-    top: 36%;
+    top: 42%;
     transform: translateY(-50%);
   }
 
   .event-10{
     left: -400px; /* Odległość etykiety od osi */
-    top: 42%;
+    top: 48%;
     transform: translateY(-50%);
   }
 
   .event-11{
     left: -400px; /* Odległość etykiety od osi */
-    top: 46%;
+    top: 52%;
     transform: translateY(-50%);
   }
 
   .event-12{
     left: -400px; /* Odległość etykiety od osi */
-    top: 50%;
+    top: 56%;
     transform: translateY(-50%);
   }
 
   .event-13{
     left: -400px; /* Odległość etykiety od osi */
-    top: 53%;
+    top: 59%;
     transform: translateY(-50%);
   }
 
   .event-14{
     left: 200px; /* Odległość etykiety od osi */
-    top: 65%;
+    top: 80%;
     transform: translateY(-50%);
   }
 
   .event-15{
     left: 200px; /* Odległość etykiety od osi */
-    top: 70%;
+    top: 83%;
     transform: translateY(-50%);
   }
 
   .event-16{
     left: 200px; /* Odległość etykiety od osi */
-    top: 75%;
+    top: 86%;
     transform: translateY(-50%);
   }
 
