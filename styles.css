@@ -2,6 +2,199 @@
   font-family: Roboto;
 }
 
+.chart-container {
+    position: relative;
+    width: 200px; /* Możesz dostosować szerokość */
+    height: 2000px; /* Możesz dostosować wysokość */
+  }
+
+  .event-title {
+    width: 400px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    position: absolute;
+    left: -400px; /* Odległość etykiety od osi */
+    top: 15%;
+    transform: translateY(-50%);
+    color: white;
+  }
+
+  .event-title-2 {
+    width: 400px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    position: absolute;
+    left: 200px; /* Odległość etykiety od osi */
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+  }
+
+  .event-title-3 {
+    width: 400px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    position: absolute;
+    left: -400px; /* Odległość etykiety od osi */
+    top: 75%;
+    transform: translateY(-50%);
+    color: white;
+  }
+
+  .event{
+    width: 200%;
+    position: absolute;
+    color: white;
+    font-size: 20px;
+  }
+
+  .day-1{
+    left: 200px; /* Odległość etykiety od osi */
+    top: 2%;
+    transform: translateY(-50%);
+    font-weight: bold;
+    font-size: 25px;
+  }
+
+  .event-1{
+    left: 200px; /* Odległość etykiety od osi */
+    top: 6%;
+    transform: translateY(-50%);
+  }
+
+  .event-2{
+    left: 200px; /* Odległość etykiety od osi */
+    top: 9%;
+    transform: translateY(-50%);
+  }
+
+  .event-3{
+    left: 200px; /* Odległość etykiety od osi */
+    top: 12%;
+    transform: translateY(-50%);
+  }
+
+  .event-4{
+    left: 200px; /* Odległość etykiety od osi */
+    top: 15%;
+    transform: translateY(-50%);
+  }
+
+  .event-5{
+    left: 200px; /* Odległość etykiety od osi */
+    top: 18%;
+    transform: translateY(-50%);
+  }
+
+  .event-6{
+    left: 200px; /* Odległość etykiety od osi */
+    top: 21%;
+    transform: translateY(-50%);
+  }
+
+  .event-7{
+    left: 200px; /* Odległość etykiety od osi */
+    top: 24%;
+    transform: translateY(-50%);
+  }
+
+  .event-8{
+    left: 200px; /* Odległość etykiety od osi */
+    top: 27%;
+    transform: translateY(-50%);
+  }
+
+  .event-9{
+    text-align: left;
+    left: -400px; /* Odległość etykiety od osi */
+    top: 35%;
+    transform: translateY(-50%);
+  }
+
+  .event-10{
+    text-align: left;
+    left: -400px; /* Odległość etykiety od osi */
+    top: 41%;
+    transform: translateY(-50%);
+  }
+
+  .event-11{
+    text-align: left;
+    left: -400px; /* Odległość etykiety od osi */
+    top: 45%;
+    transform: translateY(-50%);
+  }
+
+  .event-12{
+    text-align: left;
+    left: -400px; /* Odległość etykiety od osi */
+    top: 49%;
+    transform: translateY(-50%);
+  }
+
+  .event-13{
+    text-align: left;
+    left: -400px; /* Odległość etykiety od osi */
+    top: 52%;
+    transform: translateY(-50%);
+  }
+
+  .bold{
+    font-weight: bold;
+  } 
+  
+  .axis {
+    position: absolute;
+    width: 2px; /* Grubość osi */
+    height: 100%;
+    background-color: white;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .dot {
+    width: 10px; /* Średnica kropki */
+    height: 10px; /* Średnica kropki */
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+  }
+  
+  .dot:nth-child(1) {
+    top: 0%; /* Pozycja pierwszej kropki */
+    left: 50%; /* Położenie na osi */
+    transform: translate(-50%, -50%);
+  }
+  
+  .dot:nth-child(2) {
+    top: 30%; /* Pozycja drugiej kropki */
+    left: 50%; /* Położenie na osi */
+    transform: translate(-50%, -50%);
+  }
+  
+  .dot:nth-child(3) {
+    top: 70%; /* Pozycja trzeciej kropki */
+    left: 50%; /* Położenie na osi */
+    transform: translate(-50%, -50%);
+  }
+  
+  .dot:nth-child(4) {
+    top: 100%; /* Pozycja trzeciej kropki */
+    left: 50%; /* Położenie na osi */
+    transform: translate(-50%, -50%);
+  }
+
+  .agenda{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    margin-bottom: 200px;
+  }
+
 .back-to-top {
   position: fixed;
   bottom: 20px;
@@ -119,17 +312,20 @@ nav {
 }
 
 .projekty,
-.kontak,
-.agenda {
+.kontakt,
+.caiak {
   height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.kontakt {
-  height: 90vh;
+
+.agenda-1{
+    display: flex;
+    flex-direction: column;
 }
+
 
 .kontakt p {
   font-size: 20px;
