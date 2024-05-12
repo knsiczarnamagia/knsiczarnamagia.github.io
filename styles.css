@@ -18,7 +18,6 @@
 
   .event-title {
     width: 400px;
-    border: 1px solid beige;
     text-align: center;
     font-weight: bold;
     font-size: 30px;
@@ -234,7 +233,6 @@
     justify-content: center;
     align-items: center;
     height: auto;
-    border: 1px solid wheat;
   }
 
   .timeline{
@@ -243,7 +241,6 @@
     justify-content: center;
     align-items: center;
     margin-bottom: 200px;
-    border: 1px solid wheat;
   }
 
 .back-to-top {
@@ -538,48 +535,47 @@ nav {
   .event-title {
     width: 300px;
     font-size: 20px;
-    left: 100px; /* Odległość etykiety od osi */
+    left: 150px; /* Odległość etykiety od osi */
     top: 4%;
   }
 
   .event-title-2 {
     font-size: 20px;
-    left: 100px; /* Odległość etykiety od osi */
+    left: 160px; /* Odległość etykiety od osi */
     top: 37.5%;
   }
 
   .event-title-3 {
     font-size: 20px;
-    left: 100px; /* Odległość etykiety od osi */
+    left: 150px; /* Odległość etykiety od osi */
     top: 76.7%;
   }
 
   .event{
     width: 200px;
     font-size: 18px;
-    left: 220px;
-    border: 1px solid wheat;
+    left: 200px;
   }
 
   .event-r{
-    left: 140px;
+    left: 145px;
     width: 300px;
   }
 
   .day-1{
-    left: 100px; /* Odległość etykiety od osi */
+    left: 200px; /* Odległość etykiety od osi */
     top: 1.5%;
     font-size: 22px;
   }
 
   .day-1-1{
-    left: 100px; /* Odległość etykiety od osi */
+    left: 185px; /* Odległość etykiety od osi */
     top: 36%;
     font-size: 22px;
   }
 
   .day-2{
-    left: 100px; /* Odległość etykiety od osi */
+    left: 178px; /* Odległość etykiety od osi */
     top: 75%;
     font-size: 22px;
   }
@@ -678,6 +674,14 @@ nav {
 }
 
 @media screen and (max-width: 600px) {
+
+  .event-title-2{
+    width: 250px;
+  }
+  .event-title-3{
+    width: 250px;
+  }
+
   .main-2 {
     display: flex;
     flex-direction: column;
@@ -711,15 +715,14 @@ nav {
     font-size: 15px;
     width: 90%;
   }
-}
 
-@media screen and (max-width: 600px) {
   .main-2-r img {
     margin-bottom: 50px;
     margin-top: 50px;
     width: 300px;
   }
 }
+
 
 .item {
   display: flex;
@@ -802,6 +805,17 @@ nav {
 }
 
 @media screen and (max-width: 450px) {
+
+  .agenda .o-nas{
+    font-size: 25px;
+    width: 300px;
+    text-align: center;
+  }
+
+  .agenda-desc{
+    width: 300px;
+  }
+
   .flexbox {
     width: 90%;
   }
@@ -812,6 +826,122 @@ nav {
 
   .item p {
     font-size: 13px;
+  }
+
+  .event-title {
+    width: 200px;
+    font-size: 18px;
+    left: 100px; /* Odległość etykiety od osi */
+    top: 4.5%;
+  }
+
+  .event-title-2 {
+    font-size: 18px;
+    left: 152px; /* Odległość etykiety od osi */
+    top: 38.5%;
+    width: 100px;
+  }
+
+  .event-title-3 {
+    font-size: 18px;
+    left: 151px; /* Odległość etykiety od osi */
+    top: 77.5%;
+    width: 100px;
+  }
+
+  .event{
+    width: 200px;
+    font-size: 17px;
+    left: 125px;
+  }
+
+  .event-r{
+    left: 120px;
+    width: 300px;
+    font-size: 16px;
+  }
+
+  .day-1{
+    left: 100px; /* Odległość etykiety od osi */
+    top: 1.5%;
+    font-size: 22px;
+  }
+
+  .day-1-1{
+    left: 100px; /* Odległość etykiety od osi */
+    top: 36%;
+    font-size: 22px;
+  }
+
+  .day-2{
+    left: 100px; /* Odległość etykiety od osi */
+    top: 75%;
+    font-size: 22px;
+  }
+
+  .event-1{
+    top: 8.5%;
+  }
+
+  .event-2{
+    top: 11.5%;
+  }
+
+  .event-3{
+    top: 14.5%;
+  }
+
+  .event-4{
+    top: 17.5%;
+  }
+
+  .event-5{
+    top: 20.5%;
+  }
+
+  .event-6{
+    top: 23.5%;
+  }
+
+  .event-7{
+    top: 26.5%;
+  }
+
+  .event-8{
+    top: 29.5%;
+  }
+
+  .event-9{
+    top: 46%;
+    width: 200px;
+  }
+
+  .event-10{
+    top: 53%;
+  }
+
+  .event-11{
+    top: 56%;
+  }
+
+  .event-12{
+    top: 60%;
+  }
+
+  .event-13{
+    top: 63%;
+  }
+
+  .event-14{
+    top: 81%;
+  }
+
+  .event-15{
+    top: 83%;
+  }
+
+  .event-16{
+    top: 85.5%;
   }
 }
 
