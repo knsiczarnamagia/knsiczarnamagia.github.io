@@ -716,6 +716,7 @@ nav {
   .kontakt p {
     font-size: 15px;
     width: 90%;
+    text-align: center;
   }
 
   .main-2-r img {
@@ -864,7 +865,7 @@ nav {
 
   .event-r{
     left: 73px;
-    width: 300px;
+    width: 200px;
     font-size: 16px;
   }
 
@@ -941,18 +942,26 @@ nav {
 
   .event-14{
     top: 81%;
+    left: 90px;
   }
 
   .event-15{
     top: 83%;
+    left: 90px;
   }
 
   .event-16{
     top: 85.5%;
+    left: 90px;
   }
 }
 
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 315px) {
+
+  .agenda-desc{
+    width: 250px;
+  }
+
   .flexbox {
     width: 95%;
   }
