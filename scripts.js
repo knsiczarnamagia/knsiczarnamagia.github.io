@@ -9,7 +9,7 @@
         });
 
         $('#backToTopButton').click(function() {
-            $('html, body').animate({scrollTop: 0}, 800); // Przewijanie do góry z animacją trwającą 800 milisekund
+            $('html, body').animate({scrollTop: 0}, 1000); // Przewijanie do góry z animacją trwającą 1000 milisekund
             return false;
         });
     });
@@ -28,5 +28,23 @@
             behavior: 'smooth'
         });
     }
+
+    function toggleMobileMenu() {
+        console.log("Toggle mobile menu clicked");
+        var mobileMenu = document.getElementById("mobile-menu");
+        console.log(mobileMenu.style.display);
+        if(mobileMenu.style.display === 'block'){
+            mobileMenu.style.display = "none";
+        }else{
+            mobileMenu.style.display = "block";
+        }
+      }
+
+      function hideMenu(){
+        var mobileMenu = document.getElementById("mobile-menu");
+        console.log(mobileMenu.style.display);
+        mobileMenu.style.display = "none";
+      }
+      
 
     

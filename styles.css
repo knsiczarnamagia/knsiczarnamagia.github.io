@@ -985,3 +985,33 @@ nav {
     font-size: 40px;
   }
 }
+
+/* Dodaj styl dla menu mobilnego */
+@media (max-width: 768px) {
+  #mobile-menu {
+    display: none; /* Ukryj menu na urządzeniach mobilnych */
+    position: absolute;
+    top: 95%; /* Umieść menu pod przyciskiem */
+    left: 0;
+    width: 100%;
+    background-color: #1f2937; /* Kolor tła menu */
+    z-index: 999; /* Ustaw z-index, aby menu było na wierzchu */
+  }
+
+  /* #mobile-menu.hidden {
+    display: none; 
+  }
+
+  #mobile-menu.show {
+    display: block; 
+  } */
+
+  #mobile-menu a {
+    display: block; /* Wyświetl linki jako bloki, aby zajmowały całą szerokość */
+    padding: 1rem 2rem; /* Dodaj wypełnienie dla linków */
+    color: #cbd5e0; /* Kolor tekstu linków */
+  }
+}
+
+
+
