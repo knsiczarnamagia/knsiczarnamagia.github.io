@@ -8,6 +8,7 @@
     height: 2000px; /* Możesz dostosować wysokość */
   }
 
+
   .agenda-desc{
     font-size: 20px;
     text-align: justify;
@@ -17,6 +18,7 @@
 
   .event-title {
     width: 400px;
+    border: 1px solid beige;
     text-align: center;
     font-weight: bold;
     font-size: 30px;
@@ -232,6 +234,7 @@
     justify-content: center;
     align-items: center;
     height: auto;
+    border: 1px solid wheat;
   }
 
   .timeline{
@@ -240,6 +243,7 @@
     justify-content: center;
     align-items: center;
     margin-bottom: 200px;
+    border: 1px solid wheat;
   }
 
 .back-to-top {
@@ -528,10 +532,11 @@ nav {
 
   .agenda-desc{
     font-size: 16px;
-    width: 560px;
+    width: 420px;
   }
 
   .event-title {
+    width: 300px;
     font-size: 20px;
     left: 100px; /* Odległość etykiety od osi */
     top: 4%;
@@ -540,23 +545,25 @@ nav {
   .event-title-2 {
     font-size: 20px;
     left: 100px; /* Odległość etykiety od osi */
-    top: 36.5%;
+    top: 37.5%;
   }
 
   .event-title-3 {
     font-size: 20px;
-    left: -300px; /* Odległość etykiety od osi */
-    top: 82%;
+    left: 100px; /* Odległość etykiety od osi */
+    top: 76.7%;
   }
 
   .event{
-    width: 200%;
+    width: 200px;
     font-size: 18px;
     left: 220px;
+    border: 1px solid wheat;
   }
 
   .event-r{
     left: 140px;
+    width: 300px;
   }
 
   .day-1{
@@ -567,13 +574,13 @@ nav {
 
   .day-1-1{
     left: 100px; /* Odległość etykiety od osi */
-    top: 35%;
+    top: 36%;
     font-size: 22px;
   }
 
   .day-2{
-    left: -300px; /* Odległość etykiety od osi */
-    top: 80%;
+    left: 100px; /* Odległość etykiety od osi */
+    top: 75%;
     font-size: 22px;
   }
 
@@ -610,23 +617,35 @@ nav {
   }
 
   .event-9{
-    top: 43%;
+    top: 44%;
   }
 
   .event-10{
-    top: 49%;
+    top: 50%;
   }
 
   .event-11{
-    top: 53%;
+    top: 54%;
   }
 
   .event-12{
-    top: 57%;
+    top: 58%;
   }
 
   .event-13{
-    top: 60%;
+    top: 61%;
+  }
+
+  .event-14{
+    top: 80%;
+  }
+
+  .event-15{
+    top: 83%;
+  }
+
+  .event-16{
+    top: 86%;
   }
 
   .o-nas {
