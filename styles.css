@@ -477,9 +477,12 @@ nav {
 
   .event{
     width: 200%;
-    position: absolute;
-    color: white;
-    font-size: 20px;
+    font-size: 18px;
+    left: 150px;
+  }
+
+  .event-r{
+    left: -350px;
   }
 
   .day-1{
@@ -499,6 +502,7 @@ nav {
     top: 80%;
     font-size: 22px;
   }
+
 
 
 
