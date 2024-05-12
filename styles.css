@@ -9,6 +9,8 @@
   }
 
 
+
+
   .agenda-desc{
     font-size: 20px;
     text-align: justify;
@@ -721,6 +723,7 @@ nav {
     margin-top: 50px;
     width: 300px;
   }
+  
 }
 
 
@@ -806,6 +809,10 @@ nav {
 
 @media screen and (max-width: 450px) {
 
+  .axis {
+    left: 20%;
+  }
+
   .agenda .o-nas{
     font-size: 25px;
     width: 300px;
@@ -831,20 +838,20 @@ nav {
   .event-title {
     width: 200px;
     font-size: 18px;
-    left: 100px; /* Odległość etykiety od osi */
+    left: 50px; /* Odległość etykiety od osi */
     top: 4.5%;
   }
 
   .event-title-2 {
     font-size: 18px;
-    left: 152px; /* Odległość etykiety od osi */
+    left: 100px; /* Odległość etykiety od osi */
     top: 38.5%;
     width: 100px;
   }
 
   .event-title-3 {
     font-size: 18px;
-    left: 151px; /* Odległość etykiety od osi */
+    left: 97px; /* Odległość etykiety od osi */
     top: 77.5%;
     width: 100px;
   }
@@ -852,29 +859,29 @@ nav {
   .event{
     width: 200px;
     font-size: 17px;
-    left: 125px;
+    left: 72px;
   }
 
   .event-r{
-    left: 120px;
+    left: 73px;
     width: 300px;
     font-size: 16px;
   }
 
   .day-1{
-    left: 100px; /* Odległość etykiety od osi */
+    left: 50px; /* Odległość etykiety od osi */
     top: 1.5%;
     font-size: 22px;
   }
 
   .day-1-1{
-    left: 100px; /* Odległość etykiety od osi */
+    left: 50px; /* Odległość etykiety od osi */
     top: 36%;
     font-size: 22px;
   }
 
   .day-2{
-    left: 100px; /* Odległość etykiety od osi */
+    left: 50px; /* Odległość etykiety od osi */
     top: 75%;
     font-size: 22px;
   }
