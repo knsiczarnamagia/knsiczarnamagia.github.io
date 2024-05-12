@@ -677,6 +677,12 @@ nav {
 
 @media screen and (max-width: 600px) {
 
+  main {
+    height: 400px;
+    background-position: 58% 15%;
+    background-size: 160%;
+  }
+
   .event-title-2{
     width: 250px;
   }
@@ -809,6 +815,12 @@ nav {
 }
 
 @media screen and (max-width: 450px) {
+
+  main {
+    height: 350px;
+    background-position: 58% 11.5%;
+    background-size: 160%;
+  }
 
   .axis {
     left: 20%;
@@ -953,6 +965,15 @@ nav {
   .event-16{
     top: 85.5%;
     left: 90px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+
+  main {
+    height: 300px;
+    background-position: 58% 12%;
+    background-size: 160%;
   }
 }
 
