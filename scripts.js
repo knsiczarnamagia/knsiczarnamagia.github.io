@@ -33,7 +33,8 @@
         console.log("Toggle mobile menu clicked");
         var mobileMenu = document.getElementById("mobile-menu");
         console.log(mobileMenu.style.display);
-        if(mobileMenu.style.display === 'block'){
+        console.log(screen.width);
+        if(mobileMenu.style.display === 'block' && screen.width < 769){
             mobileMenu.style.display = "none";
         }else{
             mobileMenu.style.display = "block";
@@ -43,7 +44,10 @@
       function hideMenu(){
         var mobileMenu = document.getElementById("mobile-menu");
         console.log(mobileMenu.style.display);
-        mobileMenu.style.display = "none";
+        if(screen.width < 769){
+            mobileMenu.style.display = "none";
+        }
+
       }
       
 

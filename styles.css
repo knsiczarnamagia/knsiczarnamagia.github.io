@@ -988,6 +988,7 @@ nav {
   }
 }
 
+
 /* Dodaj styl dla menu mobilnego */
 @media (max-width: 768px) {
   #mobile-menu {
