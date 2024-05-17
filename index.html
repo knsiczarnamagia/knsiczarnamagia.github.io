@@ -51,6 +51,7 @@
           <button
             id="mobile-menu-button"
             class="text-gray-300 hover:text-white focus:outline-none"
+            onclick="toggleMobileMenu()"
           >
             <svg viewBox="0 0 20 20" fill="currentColor" class="menu w-6 h-6">
               <path
@@ -61,32 +62,11 @@
             </svg>
           </button>
         </div>
-        <div class="hidden md:flex md:items-center md:justify-end">
-          <a
-            href="#"
-            class="text-gray-300 hover:text-white px-4"
-            onclick="scrollToSection(1)"
-            >O nas</a
-          >
-          <a
-            href="#"
-            class="text-gray-300 hover:text-white px-4"
-            onclick="scrollToSection(2)"
-            >Projekty</a
-          >
-          <a
-            href="#"
-            class="text-gray-300 hover:text-white px-4"
-            onclick="scrollToSection(3)"
-            >Kontakt</a
-          >
-
-          <a
-          href="#"
-          class="text-gray-300 hover:text-white px-4"
-          onclick="scrollToSection(4)"
-          ><b>AGENDA CONFERENCJI CAIAK</b></a
-          >
+        <div class="hidden md:flex md:items-center md:justify-end" id="mobile-menu">
+          <a href="#" class="text-gray-300 hover:text-white block px-4 py-2" onclick="scrollToSection(1); hideMenu();">O nas</a>
+          <a href="#" class="text-gray-300 hover:text-white block px-4 py-2" onclick="scrollToSection(2); hideMenu();">Projekty</a>
+          <a href="#" class="text-gray-300 hover:text-white block px-4 py-2" onclick="scrollToSection(3); hideMenu();">Kontakt</a>
+          <a href="#" class="text-gray-300 hover:text-white block px-4 py-2" onclick="scrollToSection(4); hideMenu();"><b>AGENDA CONFERENCJI CAIAK</b></a>
         </div>
       </div>
     </nav>
