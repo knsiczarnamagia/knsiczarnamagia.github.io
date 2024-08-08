@@ -360,7 +360,8 @@ nav {
 
 .projekty,
 .kontakt,
-.caiak {
+.caiak,
+.dolacz {
   height: 100vh;
   display: flex;
   align-items: center;
@@ -378,7 +379,8 @@ nav {
 
 .projekty-1,
 .kontakt-1,
-.agenda-1 {
+.agenda-1,
+.dolacz-1 {
   display: flex;
   flex-direction: column;
   align-items: center;
